@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+body{font-family: 'Noto Sans TC', sans-serif;}
+.container {
+    width: 1000px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-size: auto auto;
+}
+
+header {
+    background-color: #FACFCF;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+nav p a:link  {
+    color: #091717;
+}
+nav p a:hover {
+    text-shadow: 0px 0px #F8F707;
+    color: #F1595B;
+    font-size: larger;
+}
+.heroimg {
+    height: 250px;
+    background-color: #FEF8F8;
+    background-image: url(assets/midjourney%E7%94%9F%E6%88%90%E6%99%BA%E6%85%A7%E8%BE%B2%E6%A5%AD.png);
+}
+
+
+
+main {
+    background-color: #EDDDDD;
+}
+main article h2 {
+    background-color: #E3C8D6;
+    padding-left: 10px;
+    height: auto;
+    width: auto;
+}
+
+
+footer {
+    background-color: #F7D6D6;
+    margin-left: auto;
+    margin-right: auto;
+}
